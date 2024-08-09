@@ -1,0 +1,59 @@
+
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  background-image: url(../img/showcase.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 60px;
+  color: white;
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  background-color: black;
+  
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+.navbar a:hover{
+  background-color: aqua;
+  color: black;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side{
+  flex: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.main{
+  flex: 70%;
+  padding: 20px;
+}
+
+.fakeimg{
+  width: 100%;
+  background-color: gray;
+  padding: 20px;
+}
+
+.footer{
+  padding: 20px;
+  background-color: darkgrey;
+  text-align: center;
+}
+
